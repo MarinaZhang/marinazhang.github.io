@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: <a href=''>CV</a> /  <a href='https://www.linkedin.com/in/marina-zhang'>LinkedIn</a> / <a href='https://scholar.google.com/citations?user=V9ehnpwAAAAJ&hl=en'>Google Scholar</a> / <a href='https://github.com/MarinaZhang'>GitHub</a>
+subtitle: <a href='https://marinazhang.github.io/assets/pdf/cv.pdf'>CV</a> /  <a href='https://www.linkedin.com/in/marina-zhang'>LinkedIn</a> / <a href='https://scholar.google.com/citations?user=V9ehnpwAAAAJ&hl=en'>Google Scholar</a> / <a href='https://github.com/MarinaZhang'>GitHub</a>
 
 profile:
   align: right
