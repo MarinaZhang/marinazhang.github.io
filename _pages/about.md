@@ -15,15 +15,9 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
+Hello! I am a software engineer on Google's [Security & Anti-Abuse Research Team](https://research.google/teams/security-privacy-abuse/), led by [Elie Bursztein](https://elie.net/). Previously, I graduated from MIT in 2021 with a double major in Computer Science and Engineering & Mathematics.
 
-Hello! I am a software engineer on Google's Security & Anti-Abuse Research Team.
-
-
-<!-- At Google, I've been incredibly fortuante to be able to work with and learn from Elie Burstein  -->
-
-Previously, I graduated from MIT in 2021 with a double major in Compute Science and Engineering & Mathematics.
-
-Email: <a href='mailto:marinazh@google.com'>marinazh@google.com</a> 
+My research is primarily focused on building adversarially robust deep learning models and developing novel machine learning-based solutions to security problems. Several projects I’ve worked on over the last few years include: building robust and scalable text embeddings using deep similarity learning, clustering and classifying spam/phishing/malware campaigns across Google products, malicious URL detection for end-to-end encrypted environments, and side channel attacks on cryptographic hardware. More recently, I’ve been interested in investigating the security vulnerabilities and trustworthiness of LLMs, as well as the potential applications of LLMs to long-standing security and privacy problems.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
