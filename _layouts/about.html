@@ -42,21 +42,47 @@ layout: default
 
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h2>
+            <!-- <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">News</a></h2> -->
+            <h1 style="font-size: 30px; margin-bottom: 10px; margin-top: 25px;">News</h1>
             {%- include news.html limit=true %}
           {%- endif %}
 
-          <!-- Latest posts -->
+          <h1 style="font-size: 30px; margin-bottom: 15px; margin-top: 20px;">Research</h1>
+          <p style="margin: 0">
+            E. Bursztein, <b>M. Zhang</b>, O. Vallis, X. Jia, and A. Kurakin. “RETVec: Resilient
+            and Efficient Text Vectorizer.”
+            <i>Accepted at NeurIPS 2023. </i> <br>
+            [<a href="https://arxiv.org/abs/2302.09207">paper</a>, <a href="https://github.com/google-research/retvec">code</a>]
+          </p>
+
+          <p style="margin: 0; margin-top: 15px;">
+            E. Bursztein, L. Invernizzi, K. Král, D. Moghimi, J.M. Picod, and <b>M. Zhang</b>.
+            “Generic Attacks against Cryptographic Hardware through Long-Range Deep Learning." <br>
+            <i>Under submission. </i> <br>
+            [<a href="https://arxiv.org/abs/2306.07249">paper</a>, <a href="https://github.com/google/scaaml">code</a>]
+          </p>
+
+          <p style="margin: 0; margin-top: 15px;">
+            E. Janke, <b>M. Zhang</b>, S. Ryu, J. Bhattarai, M. R. Schreck, A. H. Moberly, W.
+            Luo, L. Ding, D. W. Wesson, and M. Ma.
+            “Machine Learning-based Clustering and Classification of Mouse Behaviors via Respiratory Patterns.”
+            <br>
+            <i>Published in iScience Vol. 25, 2022.</i> <br>
+            [<a href="https://doi.org/10.1016/j.isci.2022.105625">paper</a>]
+          </p>
+
+          <!-- Latest posts
           {% if page.latest_posts -%}
             <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
             {%- include latest_posts.html %}
-          {%- endif %}
+          {%- endif %} -->
 
           <!-- Selected papers -->
-          {% if page.selected_papers -%}
+          <!-- {% if page.selected_papers -%}
             <h2><a href="{{ '/research/' | relative_url }}" style="color: inherit;">Research</a></h2>
             {%- include selected_papers.html %}
-          {%- endif %}
+          {%- endif %} -->
+
 
           <!-- Social -->
           {%- if page.social %}
