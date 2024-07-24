@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper on RETSim, a lightweight text embedding for robust text similarity, has been accepted at ICLR 2024! Check out the paper on <a href='https://arxiv.org/abs/2311.17264'>arXiv</a>.
+Our paper on <a href='https://arxiv.org/abs/2311.17264'>RETSim</a> has been accepted at ICLR 2024 -- see y'all in Vienna!
